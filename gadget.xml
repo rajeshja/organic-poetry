@@ -16,19 +16,19 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	<Content type="html">
 		<![CDATA[
 		<link type="text/css" rel="stylesheet"
-					href="http://organic-poetry.googlecode.com/hg/poetry.css?r=r1"
+					href="http://organic-poetry.googlecode.com/hg/poetry.css?r=release"
 					/>
 		<link type="text/css" rel="stylesheet"
-					href="http://organic-poetry.googlecode.com/hg/jquery-ui-1.7.2.custom.css?r=r1"
+					href="http://organic-poetry.googlecode.com/hg/jquery-ui-1.7.2.custom.css?r=release"
 					/>
 		<script type="text/javascript"
-						src="http://organic-poetry.googlecode.com/hg/json2min.js?r=r1"></script>
+						src="http://organic-poetry.googlecode.com/hg/json2min.js?r=release"></script>
 		<script type="text/javascript"
-						src="http://organic-poetry.googlecode.com/hg/jquery-1.3.2.min.js?r=r1"></script>
+						src="http://organic-poetry.googlecode.com/hg/jquery-1.3.2.min.js?r=release"></script>
 		<script type="text/javascript"
-						src="http://organic-poetry.googlecode.com/hg/jquery-ui-1.7.2.custom-drag-resize.min.js?r=r1"></script>
+						src="http://organic-poetry.googlecode.com/hg/jquery-ui-1.7.2.custom-drag-resize.min.js?r=release"></script>
 		<script type="text/javascript"
-						src="http://organic-poetry.googlecode.com/hg/organic.js?r=r1"></script>
+						src="http://organic-poetry.googlecode.com/hg/organic.js?r=release"></script>
 		<div id="op-container">
 			<div id="debug">Waiting for dragging the image get started...</div>
 			<div id="controls">

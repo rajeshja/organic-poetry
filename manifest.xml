@@ -9,11 +9,11 @@ Unless required by applicable law or agreed to in writing, software distributed 
 -->
 <extension
 		name="Organic Poetry"
-		thumbnailUrl="http://organic-poetry.googlecode.com/hg/images/screenshot.png?r=r1"
+		thumbnailUrl="http://organic-poetry.googlecode.com/hg/images/screenshot.png?r=release"
 		description="A fun gadget for creating divergent poetry. Each word can be followed by multiple words, and so on. The poem is a tree, not a sentence!">
 	<author name="Rajesh J Advani"/>
 	<menuHook location="toolbar" text="Add Organic Poetry Gadget"
-						iconUrl="http://organic-poetry.googlecode.com/hg/images/op-icon.png?r=r1">
-		<insertGadget url="http://organic-poetry.googlecode.com/hg/gadget.xml?r=r1"/>
+						iconUrl="http://organic-poetry.googlecode.com/hg/images/op-icon.png?r=release">
+		<insertGadget url="http://organic-poetry.googlecode.com/hg/gadget.xml?r=release"/>
 	</menuHook>
 </extension>
