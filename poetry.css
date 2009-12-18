@@ -1,0 +1,65 @@
+/*
+ * Copyright 2009 Rajesh J Advani 
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * 	http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions
+ * and limitations under the License.
+ */
+
+#op-container {
+	font-family: Verdana, Bitstream Vera Sans, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+#organic-poetry {
+	width: 95%;
+	height: 85%;
+	border: 0;
+	position: relative;
+	overflow: auto;
+	border: 1px solid #8080a0;
+}
+
+#controls input {
+	font-family: Verdana, Bitstream Vera Sans, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+#op-back {
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	/* background: #ddffdd;
+	width: 300px;
+	height: 300px; */
+}
+
+#start-node {
+	background: #d04040;
+}
+
+.word {
+	border: 1px solid black;
+	margin: 0;
+	padding: 2px;
+	z-index: 10;
+	cursor: pointer;
+	background: #ffffff;
+}
+
+.selected {
+	background: #ddddff !important;
+	border-color: #0000ff;
+}
