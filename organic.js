@@ -309,6 +309,15 @@ function clearState() {
 	wave.getState().reset();
 }
 
+function toggleGuide() {
+	var guide = $("#user-guide");
+	if (guide.hasClass("hidden")) {
+		guide.removeClass("hidden");
+	} else {
+		guide.addClass("hidden");
+	}
+}
+
 /*
  * This function should be called on first load of the gadget.
  * This should setup initial state of elements if not already set.
@@ -332,6 +341,7 @@ function stateUpdated() {
 		
 		$("#add").click(addWords);
 		$("#delete").click(deleteSelected);
+		$("#user-guide-link").click(toggleGuide);
 	}
 
 	//Update last Id from state.
