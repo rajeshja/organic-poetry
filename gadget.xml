@@ -30,7 +30,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
 		<script type="text/javascript"
 						src="http://organic-poetry.googlecode.com/hg/organic.js?r=release"></script>
 		<div id="op-container">
-			<div id="debug">Waiting for dragging the image get started...</div>
 			<div id="controls">
 				<input id="newWord" type="text" value=""/>
 				<input id="add" type="button" value="Add"/>
