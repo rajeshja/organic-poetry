@@ -16,19 +16,19 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	<Content type="html">
 		<![CDATA[
 		<link type="text/css" rel="stylesheet"
-					href="http://organic-poetry.googlecode.com/hg/poetry.css?r=release"
+					href="http://organic-poetry.googlecode.com/hg/poetry.css?r=staging"
 					/>
 		<link type="text/css" rel="stylesheet"
-					href="http://organic-poetry.googlecode.com/hg/jquery-ui-1.7.2.custom.css?r=release"
+					href="http://organic-poetry.googlecode.com/hg/jquery-ui-1.7.2.custom.css?r=staging"
 					/>
 		<script type="text/javascript"
-						src="http://organic-poetry.googlecode.com/hg/json2min.js?r=release"></script>
+						src="http://organic-poetry.googlecode.com/hg/json2min.js?r=staging"></script>
 		<script type="text/javascript"
-						src="http://organic-poetry.googlecode.com/hg/jquery-1.3.2.min.js?r=release"></script>
+						src="http://organic-poetry.googlecode.com/hg/jquery-1.3.2.min.js?r=staging"></script>
 		<script type="text/javascript"
-						src="http://organic-poetry.googlecode.com/hg/jquery-ui-1.7.2.custom-drag-resize.min.js?r=release"></script>
+						src="http://organic-poetry.googlecode.com/hg/jquery-ui-1.7.2.custom-drag-resize.min.js?r=staging"></script>
 		<script type="text/javascript"
-						src="http://organic-poetry.googlecode.com/hg/organic.js?r=release"></script>
+						src="http://organic-poetry.googlecode.com/hg/organic.js?r=staging"></script>
 		<div id="op-container">
 			<div id="controls">
 				<input id="newWord" type="text" value=""/>
