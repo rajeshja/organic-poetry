@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Best Buy Laptop Finder</title>
+<link href="style/main_enhanced_generic.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<link href="style/main_enhanced_1.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<link href="style/main_enhanced_2.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<link href="style/m-e-main.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<link href="style/jquery-ui.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<script src="scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.cycle.all.min.js" type="text/javascript"></script>
+<script src="scripts/common.js" type="text/javascript"></script>
+<script src="scripts/jquery.flick.js" type="text/javascript"></script>
+<script src="scripts/jqtouch.js" type="text/javascript"></script>
+<script src="scripts/jquery.iphoneui.js" type="text/javascript"></script>
+<script src="scripts/jquery-ui.min.js" type="text/javascript"></script>
+<script src="scripts/asortment.js" type="text/javascript"> </script>
+<style>
+#page-wrapper {
+width:100%;
+}
+</style>
+<script type="text/javascript">
+var defaultParentList = false;
+</script>
+</head>
+<body onload="setSliderRange('500','1500','pageOnload');setSCrSizeSliderRangeLT('12','16','pageOnload');checkRefineFacets('no');disableDisplayResults('53');startOver('');self.location = '#content';">
+<div id="header"> <a href='#'><img src="images/logo-bby.png" class="logo" height="41" width="60"/></a>
+  <ol class="header-links">
+    <li><a href="#">Home</a></li>
+    <li class="divider"></li>
+    <li><a href='#'>Sign In</a></li>
+    <li class="divider"></li>
+    <li><a href='#' class="cart"> (0)</a></li>
+  </ol>
+  <br class="brClear" />
+  <ol class="nav">
+    <li><a href="#">Weekly Ad</a></li>
+    <li><a href="#">Store Locator</a></li>
+  </ol>
+  <br class="brClear" />
+</div>
+<div id="errorMsg" style="display:none">
+  <div id="inline-error"><span class="error">Please choose category and try again.</span></div>
+</div>
+<div id="noSearch" style="display:none">
+  <div id="inline-error"><span class="error">Please enter keyword(s) or item number and try again.</span> </div>
+</div>
+<div class="search">
+  <form onsubmit="return validate_form(this)" method="post" name="searchform" id="m-search-top">
+    <input type="text" name="st" accesskey="4" id="textfield" value="Enter keyword or item #"
+class="text" maxlength="34" onclick="this.value=''" onfocus="(this.value='')" />
+    <a href="#" onclick="searchSubmit();" class="btn btn-search">Search</a>
+  </form>
+</div>
+<div id="content">
+  <div id="Tvfinder_categoriesNfilter">
+    <div><img src="" alt="" width="5" height="5" id="img02" style="display: none;" /></div>
+    <script type="text/javascript">
+var hasClicked = true;
+  </script>
+    <br/>
+    <form method="post" id="assortmentNarrowForm">
+      <div id="laptopFindersrchd" class="downarrow"><a onclick="getGeoLocation('zipCode','city','state');document.img02.src='http://metrics.bestbuy.com/b/ss/bbymobiledev/5/834207?gn=AssortmentNarrow: Entry&amp;vid=893141&amp;c45=D=User-Agent&amp;v45=D=User-Agent&amp;ch=Enhanced&amp;r=HTTP_REFERER&amp;c49=ATG8280940015&amp;v49=ATG8280940015'" href="#tvFindersrchd" class="trigger1 closed"><span class="Laptopsrchicon"></span>Laptop Finder<span id="tvFinderImg" class="downarrow closed"></span></a>
+        <div class="srchrslt">
+          <h3>
+            <div class="fnpstock">Find the features &amp; price in stock
+              near you.</div>
+            <div style="display: none;" id="acquiring_location" class="acqloc"> <span class="updatelocation"></span> Acquiring Location</div>
+            <div style="display: none;" id="update_location" class="updtloc"> <a onclick="findLocation('zipCode','city','state')" href="#">Acquiring Location<span class="updatelocation"></span></a></div>
+          </h3>
+        </div>
+        <div style="display:none" class="downarrow-opened">
+          <div id="error_loc" class="error-small">
+            <div id="formException" class="error-small"></div>
+          </div>
+          <ul>
+            <li>
+              <label>ZIP Code</label>
+              <input type="text" id="zipCode" name="/bestbuy/digiterra/commerce/order/processor/CartSessionValues.storeInputData.inputData.zipCode" class="float_formfield widthdef" title="zipcode" maxlength="5" accesskey="4" value="55420" />
+            </li>
+            <li>
+              <label>Price Range</label>
+              <select name="priceRange">
+                <option value="pricerange=$500,$0">$0 - $500</option>
+                <option selected="selected" value="pricerange=$1500,$500">$500 - $1500</option>
+                <option value="pricerange=$3000,$1500">$1500 +</option>
+              </select>
+            </li>
+            <li>
+              <label>Screen Size</label>
+              <select name="screenSize">
+                <option value="screenrange=29inches,1inches">12&quot; - 16&quot;</option>
+              </select>
+            </li>
+          </ul>
+          <br/>
+          <div class="dottedsep_whitebg"></div>
+          <div class="floatlft padtop8em">Continue to find the laptop for you! </div>
+          <ul>
+            <li class="continue_searchpar"> <a class="btn btn-search" onclick="document.assortmentNarrowForm.submit();" href="#">GO &gt;</a></li>
+          </ul>
+        </div>
+      </div>
+    </form>
+    <script type="text/javascript">
+$(document).ready(function() {
+$(".trigger1").click(function() {
+$(".trigger1").toggleClass("closed, opened");
+$(".downarrow").toggleClass("closed, opened");
+$(".downarrow-opened").toggle();
+$(".fnpstock").toggle();
+$(".updtloc").toggle();
+});
+});
+  </script>
+  </div>
+</div>
+<div class="dottedsep_whitebg mrgntop35px"></div>
+<div id="browse-category">
+  <h2>Computers</h2>
+</div>
+<ul id="products-list">
+  <li><a href="#">Laptop Computers</a></li>
+  <li><a href="#">Notebooks</a></li>
+  <li><a href="#">iPad &amp; Tablet PCs</a></li>
+  <li><a href="#">Desktop Computers</a></li>
+  <li><a href="#">All-in-One Computes</a></li>
+  <li><a href="#">Monitors</a></li>
+  <li><a href="#">Projectors &amp; Screens</a></li>
+  <li><a href="#">Networking</a></li>
+  <li><a href="#">Drives &amp; Storage</a></li>
+  <li><a href="#">Computer Memory</a></li>
+</ul>
+<br/>
+<script src="scripts/foresee-trigger-mobile.js" type="text/javascript"> </script>
+<div id="cybertrust"></div>
+<div class="bottom nobdrtop">
+  <ul id="products-subnav">
+    <li><a href="#" class="rightline home">Home</a></li>
+    <li><a href="#" class="rightline myacount">My Account</a></li>
+    <li><a href="#" class="rightline orderstat">Order Status</a></li>
+    <li><a href="#" class="rightline signout">Sign In</a></li>
+    <li><a href="#">Cart (0)</a></li>
+  </ul>
+</div>
+<div class="bottom sign-in bc8">
+	<h3 class="findbystore"><a href="#">Find a Best Buy Store Near You</a></h3>
+</div>
+<div id="footer" class="bdrtpwhite floatlft"><span><a href="#">Order by Phone: 1-888 BEST BUY</a></span>
+  <p>Prices on this site are the same as those on BestBuy.com. Prices may vary in store. All prices and offers are subject to change. In store availability subject to change. Orders placed for store pickup may take up to 45 minutes to process. <br />
+    &copy;2003-2010 BBY Solutions, Inc. </p>
+  <ol class="footer-links">
+    <li><a href="#">Terms</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Privacy</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Full Site</a></li>
+  </ol>
+</div>
+</body>
+</html>

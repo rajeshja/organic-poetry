@@ -1,0 +1,1547 @@
+#header {
+background:url("../images/bg_image.png") repeat-x scroll 0 0 transparent;
+display:block;
+height:70px;
+padding-left:20px;
+padding-right:20px;
+}
+#header .logo {
+float:left;
+left:6px;
+position:relative;
+top:15px;
+}
+#header ol li {
+float:left;
+list-style:none outside none;
+}
+#header .header-links, #header .header-links a {
+color:#FFFFFF;
+font-size:14px;
+text-decoration:none;
+}
+#header .header-links a:hover, #footer li a:hover {
+color:#D4DFF4;
+}
+#header .header-links {
+margin-top:5px;
+}
+#header .header-links li {
+line-height:18px;
+margin-left:6px;
+}
+#header .header-links li.divider {
+background:url("../images/divider-header-links.png") no-repeat scroll 0 0 transparent;
+height:18px;
+margin:0 0 0 6px;
+padding:0;
+width:1px;
+}
+a.cart {
+background:url("../images/icon-cart.png") no-repeat scroll left center transparent;
+padding-left:20px;
+}
+#header .nav, #header .nav a {
+color:#FFFFFF;
+font-size:15px;
+text-decoration:none;
+text-shadow:1px 1px #003B64;
+}
+#header .nav {
+margin-right:-12px;
+}
+#header .nav li {
+margin-left:1px;
+margin-top:5px;
+}
+#header .nav a {
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
+border-color:transparent transparent -moz-use-text-color;
+border-style:solid solid none;
+border-width:1px 1px medium;
+display:block;
+padding:2px 11px 3px;
+}
+#header .nav a:hover {
+border-color:transparent transparent -moz-use-text-color;
+border-style:solid solid none;
+border-width:1px 1px medium;
+color:#F2E72E;
+text-shadow:0 0 #FFFFFF;
+}
+#header .nav a.current {
+background:url("../images/bg-nav-selected.png") repeat-x scroll 0 0 transparent;
+border-color:#003B64 #003B64 -moz-use-text-color;
+border-style:solid solid none;
+border-width:1px 1px medium;
+color:#222222;
+text-shadow:1px 1px #FFFFFF;
+}
+.search {
+background:url("../images/bg-header-search.png") repeat-x scroll 0 0 transparent;
+display:block;
+height:45px;
+}
+#cycle-thisweeksdeals {
+background:none repeat scroll 0 0 #CCCCCC;
+display:block;
+height:134px;
+}
+.cycle-nav {
+background:url("../images/bg-cycle-nav.png") repeat-x scroll 0 0 transparent;
+display:block;
+height:36px;
+line-height:36px;
+margin-bottom:20px;
+padding-left:10px;
+padding-right:10px;
+}
+.cycle-nav span {
+color:#222222;
+font-size:14px;
+font-weight:bold;
+}
+.dropdown, #NarrowYourResults.dropdown {
+margin-bottom:20px;
+margin-left:10px;
+margin-right:10px;
+}
+a.trigger {
+-moz-border-radius:4px 4px 4px 4px;
+background:url("../images/bg-dropdown.png") repeat-x scroll left top transparent;
+border:1px solid #CBCBCB;
+display:block;
+font-size:14px;
+font-weight:bold;
+height:33px;
+line-height:33px;
+padding-left:10px;
+padding-right:10px;
+text-decoration:none;
+}
+a.trigger:hover {
+background:url("../images/bg-dropdown.png") repeat-x scroll left bottom transparent;
+color:#222222;
+}
+a.trigger.closed {
+color:#003B64;
+display:block;
+text-shadow:1px 1px #FFFFFF;
+}
+a.trigger.opened {
+color:#222222;
+display:block;
+text-shadow:1px 1px #FFFFFF;
+}
+.dropdownis {
+display:block;
+float:right;
+height:23px;
+margin-top:5px;
+width:26px;
+}
+.dropdownis.closed {
+background:url("../images/dropdownis.png") no-repeat scroll left top transparent;
+}
+.dropdownis.opened {
+background:url("../images/dropdownis.png") no-repeat scroll left bottom transparent;
+}
+.dropdown-opened {
+-moz-border-radius-bottomleft:10px;
+-moz-border-radius-bottomright:10px;
+background:none repeat scroll 0 0 #FFFFFF;
+border:1px solid #BBBBBB;
+display:none;
+margin-top:-4px;
+}
+.dropdown-opened li {
+background:url("../images/linked-arrow.png") no-repeat scroll right center transparent;
+list-style:none outside none;
+}
+.dropdown-opened li a.category {
+background-image:url("../images/category-icons.gif");
+background-repeat:no-repeat;
+border-top:1px solid #BBBBBB;
+color:#003B64;
+display:block;
+height:42px;
+line-height:42px;
+padding-left:60px;
+text-decoration:none;
+}
+.dropdown-opened li.last, .dropdown-opened li.last:hover {
+-moz-border-radius-bottomleft:10px;
+-moz-border-radius-bottomright:10px;
+}
+.category.tv-video {
+background-position:13px 0;
+}
+.category.audio {
+background-position:13px -45px;
+}
+.category.car-gps {
+background-position:13px -88px;
+}
+.category.cameras-camcorders {
+background-position:13px -131px;
+}
+.category.computers {
+background-position:13px -174px;
+}
+.category.cellphones-offics {
+background-position:13px -217px;
+}
+.category.music {
+background-position:13px -260px;
+}
+.category.movies {
+background-position:13px -303px;
+}
+.category.games-gadgets {
+background-position:13px -346px;
+}
+.category.home-appliances {
+background-position:13px -389px;
+}
+.category.giftcards {
+background-position:13px -432px;
+}
+#NarrowYourResults {
+margin-top:19px;
+}
+#NarrowYourResults .dropdown-opened {
+background:none repeat scroll 0 0 #FAFAFA;
+}
+#NarrowYourResults .dropdown-opened h3 {
+margin:0 1px;
+padding:0;
+}
+#NarrowYourResults .dropdown-opened h3 a {
+background:url("../images/icon-plus.png") no-repeat scroll 8px center #E7ECF7;
+border:1px solid #FDFDFD;
+display:block;
+font-size:14px;
+font-weight:bold;
+line-height:34px;
+padding-left:28px;
+text-decoration:none;
+text-shadow:1px 1px #FDFDFD;
+}
+#NarrowYourResults .dropdown-opened h3 a:hover {
+background-color:#D4DFF4;
+color:#222222;
+}
+#NarrowYourResults .dropdown-opened h3.ui-state-active a {
+background:url("../images/icon-minus.png") no-repeat scroll 8px center #D4DFF4;
+color:#222222;
+}
+#NarrowYourResults .dropdown-opened h3.last a {
+-moz-border-radius-bottomleft:10px;
+-moz-border-radius-bottomright:10px;
+margin-bottom:1px;
+}
+h3.last.ui-state-active a {
+-moz-border-radius-bottomleft:0 !important;
+-moz-border-radius-bottomright:0 !important;
+}
+#NarrowYourResults .dropdown-opened ul {
+height:auto !important;
+margin-bottom:12px;
+margin-left:30px;
+margin-top:2px;
+}
+#NarrowYourResults .dropdown-opened li {
+background:none repeat scroll 0 0 transparent;
+color:#222222;
+font-size:14px;
+line-height:30px;
+list-style:none outside none;
+}
+#NarrowYourResults .dropdown-opened li a {
+color:#003B64;
+text-decoration:none;
+}
+#NarrowYourResults .dropdown-opened li a:hover {
+text-decoration:underline;
+}
+.pre-footer ol {
+background:none repeat scroll 0 0 #D4DFF4;
+border-bottom:3px solid #FFFFFF;
+display:block;
+height:42px;
+margin:0;
+padding:0 0 0 20px;
+}
+.pre-footer li {
+color:#9E9E9E;
+float:left;
+line-height:42px;
+list-style:none outside none;
+margin:0 8px 0 0;
+padding:0;
+}
+.pre-footer li.divider {
+background:url("../images/divider-prefooter.png") no-repeat scroll center center transparent;
+display:block;
+height:42px;
+width:1px;
+}
+.pre-footer li a {
+color:#003399;
+font-size:13px;
+text-decoration:none;
+}
+.pre-footer li a:hover {
+color:#9E9E9E;
+text-decoration:none;
+}
+.feedback {
+background:url("../images/bg-feedback.png") repeat-x scroll 0 0 transparent;
+display:block;
+height:35px;
+padding-left:20px;
+padding-right:20px;
+}
+.feedback span {
+color:#003B64;
+display:inline;
+font-size:13px;
+font-weight:bold;
+line-height:35px;
+}
+.feedback .icon {
+background:url("../images/icon-feedback.png") no-repeat scroll 0 0 transparent;
+display:inline-block;
+height:25px;
+margin-left:8px;
+vertical-align:middle;
+width:27px;
+}
+.secure {
+background:url("../images/icon-secure.png") no-repeat scroll left center transparent;
+color:#222222;
+font-size:12px;
+line-height:34px;
+margin-left:20px;
+margin-right:20px;
+padding-left:18px;
+padding-top:4px;
+}
+#footer {
+background:url("../images/bg_image.png") repeat-x scroll 0 -80px transparent;
+color:#FFFFFF;
+display:block;
+height:155px;
+padding:15px 20px 20px;
+}
+#footer span {
+}
+#footer span a {
+color:#FFFFFF;
+font-weight:bold;
+text-decoration:none;
+}
+#footer p {
+font-size:12px;
+line-height:16px;
+margin:15px 0;
+padding:0;
+}
+#footer ol {
+margin:0;
+padding:0;
+}
+#footer li {
+float:left;
+line-height:12px;
+list-style:none outside none;
+margin:0 7px 0 0;
+padding:0;
+}
+#footer li.divider {
+background:url("../images/divider-footer-links.png") no-repeat scroll 0 0 transparent;
+display:block;
+height:12px;
+width:2px;
+}
+#footer li a {
+color:#FFFFFF;
+font-size:12px;
+text-decoration:none;
+}
+.btn {
+-moz-border-radius:2px 2px 2px 2px;
+font-size:10px;
+font-weight:bold;
+height:25px;
+letter-spacing:0.6px;
+line-height:25px;
+padding:6px 10px;
+text-decoration:none;
+text-transform:uppercase;
+vertical-align:middle;
+}
+.btn-search {
+background:url("../images/bg_image.png") repeat-x scroll 0 -275px transparent;
+border:1px solid #E55605;
+color:#FFFFFF;
+text-shadow:-1px 1px #E55605;
+}
+form[name="searchform"] {
+padding-left:10px;
+padding-right:10px;
+padding-top:8px;
+}
+form[name="searchform"] .text {
+-moz-border-radius:4px 4px 4px 4px;
+border:1px solid #A1A1A1;
+height:15px;
+margin:0 6px 0 0;
+padding:5px;
+vertical-align:middle;
+width:210px;
+}
+input.text:focus, textarea:focus, select:focus {
+border:1px solid #003B64;
+}
+#browse-listing ul li.one {
+font-size:13px;
+}
+.bc8 h1.secure {
+background:url("../images/cybertrust.gif") no-repeat scroll 0 50% transparent;
+margin-left:15px;
+padding-left:20px;
+}
+#pagination {
+padding:0.2em 0 0.8em;
+}
+a.button {
+margin:6px;
+}
+.product-main {
+clear:both;
+color:#003399;
+font-size:100%;
+padding:1em 0 0 0.5em;
+}
+.short {
+font-size:14px;
+width:90%;
+}
+.truncated {
+height:30px;
+overflow:hidden;
+}
+#os_paymentdetails h3 {
+background-image:url("../images/mini.gif");
+background-position:center bottom;
+background-repeat:repeat-x;
+color:#666666;
+font-size:13px;
+font-weight:bold;
+height:34px;
+line-height:34px;
+padding-left:17px;
+}
+table#full-specs tr {
+border-bottom:1px solid #D7D7D7;
+}
+table#full-specs td {
+text-align:right;
+width:165px;
+}
+table#full-specs td.details {
+color:#000000;
+text-align:left;
+width:330px;
+}
+#tb-1 {
+-moz-border-radius:5px 5px 5px 5px;
+background:none repeat scroll 0 0 #FFFFFF;
+border:1px solid #D7D7D7;
+margin:0 1em 1em;
+}
+#tb-1 h3 {
+background:url("../images/mini.gif") repeat-x scroll center bottom transparent;
+color:#000000;
+display:block;
+font-size:130%;
+font-weight:bold;
+height:34px;
+line-height:34px;
+text-indent:1em;
+}
+#tb-1 a {
+color:#003399;
+text-decoration:none;
+}
+#tb-1-closed {
+display:block;
+height:0;
+}
+#tb-1 h3.bottom-line {
+background:none repeat scroll 0 0 transparent;
+border-top:1px solid #D7D7D7;
+margin:0.5em 0;
+}
+#tb-1 {
+-moz-border-radius:0 0 0 0;
+border:1px solid #D7D7D7;
+margin:0;
+overflow:hidden;
+padding:0;
+}
+.search a:focus, .search a:hover {
+color:#FFFFFF !important;
+}
+#moviereview {
+list-style-type:disc;
+margin-left:1em;
+}
+#moviereview li {
+margin-left:1.5em;
+}
+.dropdown {
+margin:5px;
+}
+form[name="m-search-top"] {
+padding-left:10px;
+padding-right:10px;
+padding-top:8px;
+}
+#tvFinder .TVsrchicon {
+background:url("../images/tvFinderheaderimg.gif") no-repeat scroll 0 0 transparent;
+display:block;
+float:left;
+height:31px;
+margin-top:0;
+padding-right:10px;
+width:31px;
+}
+form[name="m-search-top"] .text {
+-moz-border-radius:4px 4px 4px 4px;
+border:1px solid #A1A1A1;
+height:15px;
+margin:0 6px 0 0;
+padding:5px;
+vertical-align:middle;
+width:210px;
+}
+#tvFinder .tvSearch {
+display:block;
+overflow:auto;
+padding:0.5em;
+}
+#tvFinder .tvSearch ul li {
+font-size:85%;
+list-style-type:none;
+margin:1px 0;
+padding:5px;
+}
+#tvFinder .tvsrchform {
+border-top:1px dotted #999999;
+}
+form[name="TV-search"] .text {
+-moz-border-radius:4px 4px 4px 4px;
+border:1px solid #A1A1A1;
+height:15px;
+margin:0 6px 0 0;
+padding:5px;
+vertical-align:middle;
+width:100px;
+}
+.pre-footer ol {
+padding:0 0 0 12px;
+}
+ul.tabs {
+float:left;
+height:32px;
+list-style:none outside none;
+margin:0;
+padding:0;
+width:100%;
+}
+#tvFinderfilter ul.tabs li, #laptopFinderfilter ul.tabs li {
+-moz-border-radius-bottomleft:6px;
+-moz-border-radius-topleft:6px;
+background:none repeat scroll 0 0 #D2DAEF;
+float:right;
+height:33px;
+line-height:31px;
+margin:0 0 2px;
+overflow:hidden;
+padding:0;
+position:relative;
+width:99.4%;
+}
+#tvFinderfilter ul.tabs li.active, #tvFinderfilter ul.tabs li.active a:hover, #laptopFinderfilter ul.tabs li.active, #laptopFinderfilter ul.tabs li.active a:hover {
+-moz-border-radius-bottomleft:10px;
+-moz-border-radius-topleft:10px;
+background:none repeat scroll 0 0 #474746;
+color:#FFFFFF;
+width:100%;
+}
+#tvFinderfilter ul.tabs li a,#laptopFinderfilter ul.tabs li a {
+-moz-border-radius-bottomleft:6px;
+-moz-border-radius-topleft:6px;
+color:#2D3A60;
+display:block;
+font-weight:bold;
+outline:medium none;
+padding:0 0 0 19px;
+text-decoration:none;
+}
+#tvFinderfilter ul.tabs li.active a, #tvFinderfilter ul.tabs li.active a:hover,#laptopFinderfilter ul.tabs li.active a, #laptopFinderfilter ul.tabs li.active a:hover {
+color:#FFFFFF;
+padding-left:24px;
+}
+.tab_container {
+background:none repeat scroll 0 0 #FFFFFF;
+border-top:medium none;
+color:#FFFFFF;
+float:left;
+margin-bottom:10px;
+width:46%;
+}
+.tab_content {
+-moz-border-radius-bottomleft:10px;
+-moz-border-radius-bottomright:10px;
+-moz-border-radius-topright:10px;
+background-color:#474746;
+float:left;
+min-height:266px;
+min-width:102%;
+padding:0;
+}
+.demo {
+width:200px;
+}
+.ui-slider-horizontal .ui-slider-handle {
+background:url("../css/images/bgSliderHandle.gif") no-repeat scroll 0 0 transparent;
+height:18px;
+margin-left:-0.6em;
+top:-0.3em;
+width:11px;
+}
+.ui-slider-horizontal .ui-slider-range {
+background:url("../css/images/bgSliderRange.gif") repeat-x scroll 0 0 transparent;
+height:100%;
+top:0;
+}
+#demo-frame > div.demo {
+padding:10px !important;
+}
+.rangeval {
+width:100%;
+}
+.rangeval li {
+float:none;
+width:20%;
+}
+.ui-slider-vertical {
+height:200px;
+width:0.8em;
+}
+#tvFinderfilter .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, #laptopFinderfilter .ui-state-default {
+-moz-background-inline-policy:continuous;
+background:url("../images/bgSliderHandle.gif") repeat-x scroll 50% 50% transparent;
+border:medium none;
+color:#555555;
+font-weight:normal;
+}
+#tvFinderfilter .ui-widget-content,#laptopFinderfilter .ui-widget-content {
+-moz-background-inline-policy:continuous;
+background:none repeat scroll 0 0 #8B8B8B;
+border:1px solid #AAAAAA;
+color:#222222;
+}
+#tvFinderfilter .ui-widget-header, #laptopFinderfilter .ui-widget-header {
+-moz-background-inline-policy:continuous;
+background:url("../images/bgSliderRange.png") repeat-y scroll 0 0 transparent;
+color:#222222;
+font-weight:bold;
+width:9px;
+}
+.refine #tvFinderfilter,.refine #laptopFinderfilter {
+margin:0 5px 0 -5px;
+}
+#tvFinderfilter, #laptopFinderfilter {
+font-size:12px;
+margin:0 5px 5px -5px;
+overflow-x:auto;
+overflow-y:hidden;
+width:104%;
+}
+#tvFinderfilter .products, #laptopFinderfilter .products {
+margin:5px;
+}
+#tvFinderfilter .tech-params, #laptopFinderfilter .tech-params  {
+margin:28px 5px;
+}
+#tvFinderfilter .brands, #laptopFinderfilter .brands {
+margin:5px;
+}
+.dottedsep {
+background:url("../images/tv-finder-hor-seperator.png") repeat-x scroll 1% 1% transparent;
+height:1px;
+}
+.technology li {
+text-transform:uppercase;
+}
+.resolution li {
+text-transform:uppercase;
+}
+.brands li {
+text-transform:uppercase;
+}
+.refresh-rate li {
+text-transform:uppercase;
+}
+.hdmi-val li {
+text-transform:uppercase;
+}
+#tvFinderfilter .ui-slider .ui-slider-handle, #laptopFinderfilter .ui-slider .ui-slider-handle {
+cursor:default;
+height:21px;
+position:absolute;
+width:70px;
+z-index:2;
+}
+#tvFinderfilter .ui-slider-vertical .ui-slider-handle, #laptopFinderfilter .ui-slider-vertical .ui-slider-handle {
+left:-0.7em;
+margin-bottom:-0.3em;
+margin-left:0;
+}
+#tvFinderfilter .tab_container input[type="text"], #laptopFinderfilter .tab_container input[type="text"] {
+background:url("../images/button_bg.png") repeat-x scroll 0 0 #5F5F5F;
+border:medium none;
+color:#FFFFFF;
+font-size:15px;
+font-weight:bold;
+margin:0;
+padding:2px 4px 0 2px;
+text-align:center;
+vertical-align:middle;
+width:45px;
+}
+#tvFindersrchd, #laptopFindersrchd {
+-moz-border-radius:4px 4px 4px 4px;
+border:1px solid #CBCBCB;
+margin:10px;
+}
+.tvFindersrchd_d, .laptopFindersrchd_d {
+width:94%;
+}
+#Tvfinder_categoriesNfilter #tvFindersrchd a.trigger1, #laptopFindersrchd a.trigger1 {
+border:medium none;
+}
+#tvFindersrchd h3, #laptopFindersrchd h3 {
+-moz-border-radius:4px 4px 4px 4px;
+background:url("../images/tvFindersrchdbg.gif") repeat-x scroll 0 0 transparent;
+color:#272727;
+display:block;
+font-size:18px;
+height:34px;
+line-height:33px;
+margin:0;
+padding:0 10px;
+text-decoration:none;
+}
+#tvFindersrchd .srchrslt .ron, #laptopFindersrchd .srchrslt .ron {
+-moz-border-radius:6px 6px 6px 6px;
+background:url("../images/tvfindersrchfltricon_gray.gif") no-repeat scroll 0 0 transparent;
+float:right;
+margin-right:3px;
+margin-top:5px;
+width:30px;
+}
+#tvFindersrchd .TVsrchfltr, #laptopFindersrchd .TVsrchfltr {
+background:url("../images/tvfindersrchfltricon.gif") no-repeat scroll 0 0 transparent;
+display:block;
+float:right;
+height:34px;
+margin-top:0;
+width:35px;
+}
+#tvFindersrchd .tvSearch, #laptopFindersrchd .tvSearch {
+display:block;
+overflow:auto;
+padding:0.5em;
+}
+#tvFindersrchd .tvSearch ul li, #laptopFindersrchd .tvSearch ul li {
+font-size:85%;
+list-style-type:none;
+margin:1px 0;
+padding:5px;
+}
+#tvFindersrchd .tvsrchform, #laptopFindersrchd .tvsrchform {
+border-top:1px dotted #999999;
+}
+#tvFindersrchd .srchrslt h3,#laptopFindersrchd .srchrslt h3 {
+-moz-border-radius:0 0 0 0;
+background:url("../images/tvfindersrchrsltbg.gif") repeat-x scroll 0 0 transparent;
+color:#FFFFFF;
+display:block;
+font-size:18px;
+font-weight:bold;
+line-height:33px;
+margin:0;
+padding:0 2px 0 10px;
+text-decoration:none;
+}
+#tvFindersrchd #tab3 li, #tvFindersrchd #tab4 li, #tvFindersrchd #tab5 li, #tvFindersrchd #tab6 li, #tvFindersrchd #tab7 li, #laptopFindersrchd #tab3 li, #laptopFindersrchd #tab4 li, #laptopFindersrchd #tab5 li, #laptopFindersrchd #tab6 li, #laptopFindersrchd #tab7 li {
+margin:13px 10px;
+}
+.tvfinderbuttons {
+margin:0;
+padding-left:10px;
+text-align:center;
+}
+.refine .tvfinderbuttons {
+padding-left:6px;
+}
+.tvfinderbuttons li {
+float:left;
+list-style-type:none;
+margin:5px auto;
+padding-left:0;
+width:47%;
+}
+.tvstrsovr {
+background:url("../images/tv-finder-startover.png") repeat-x scroll 0 0 transparent;
+border:1px solid #858585;
+color:#242424;
+font-size:11px;
+padding:6px 30px;
+text-align:center;
+}
+.tvdsprslt {
+background:url("../images/tv-finder-disp-rslt.png") repeat-x scroll 0 0 transparent;
+border:1px solid #2C4D79;
+color:#FFFFFF;
+font-size:11px;
+margin-left:8px;
+padding:6px 20px;
+text-align:center;
+width:111px;
+}
+#displayResultsEnableId .tvdsprslt, #displayResultsDisableId tvstrsovr {
+padding:6px 10px;
+}
+#displayResultsDisableId .tvdsprslt, #displayResultsDisableId .tvstrsovr {
+background:url("../images/tv-finder-startover.png") repeat-x scroll 0 0 transparent;
+border:1px solid #858585;
+color:#858585;
+font-size:11px;
+padding:6px 10px;
+text-align:center;
+width:111px;
+}
+#tvFinderfilter .ui-widget-content, #laptopFinderfilter .ui-widget-content {
+-moz-border-radius:0 0 0 0;
+background:url("../images/ui-bg_flat_75_ffffff_40x100.png") repeat-y scroll 0 0 transparent;
+border:medium none;
+color:#222222;
+width:21px;
+}
+.priceval {
+float:right;
+}
+.priceval li {
+margin-bottom:13px;
+}
+#tvFinderfilter #slider-range, #tvFinderfilter #slider-range2, #laptopFinderfilter #slider-range, #laptopFinderfilter #slider-range2 {
+float:left;
+height:200px;
+margin-left:1.5em;
+margin-top:0;
+}
+#tvFinderfilter .pricerange, #tvFinderfilter .screenrange, #laptopFinderfilter .pricerange, #laptopFinderfilter .screenrange {
+padding:0.4em 0.5em 2em;
+text-align:center;
+}
+#tvFinderfilter form[name="tvfinder-pricerange"], #tvFinderfilter form[name="tvfinder-screen"], #laptopFinderfilter form[name="tvfinder-pricerange"], #laptopFinderfilter form[name="tvfinder-screen"] {
+-moz-border-radius:5px 5px 5px 5px;
+background:none repeat scroll 0 0 #5F5F5F;
+padding:1px;
+}
+#tvFindersrchd .TVsrchicon,#laptopFindersrchd .Laptopsrchicon {
+background:url("../images/tvFinderheadersrchdimg.gif") no-repeat scroll 0 0 transparent;
+display:block;
+float:left;
+height:31px;
+margin-top:0;
+padding-right:10px;
+width:31px;
+}
+.tvfinderbuttons .btn {
+-moz-border-radius:6px 6px 6px 6px;
+font-size:11px;
+white-space:nowrap;
+}
+#price-calib {
+float:right;
+margin-right:20px;
+}
+#price-calib li {
+font-size:13px;
+font-weight:bold;
+}
+#screen-calib {
+float:right;
+margin-right:30px;
+}
+#screen-calib li {
+font-size:13px;
+font-weight:bold;
+}
+.TVsrchfltr-param {
+background:url("../images/tv-search-param-bg.gif") repeat-x scroll 0 0 transparent;
+border:medium none;
+display:none;
+height:30px;
+margin:0;
+padding:3px 0 2px 7px;
+position:absolute;
+width:292px;
+z-index:1;
+}
+#tickbox, #tickbox1, #tickbox2, #tickbox3, #tickbox4, #tickbox5, #slider1, #slider2 {
+background:url("../images/tick-tv-i.gif") no-repeat scroll 0 0 transparent;
+display:none;
+float:left;
+margin:0 3px;
+width:13px;
+}
+.active #slider1, .active #slider2, .active #tickbox, .active #tickbox1, .active #tickbox2, .active #tickbox3, .active #tickbox4, .active #tickbox4, .active #tickbox5 {
+background:url("../images/tick-tv.gif") no-repeat scroll 0 0 transparent;
+display:none;
+float:left;
+margin:0 0 0 8px;
+width:13px;
+}
+label.r_on {
+background:url("../images/radio-on.png") no-repeat scroll 0 0 transparent;
+}
+fieldset {
+border:0 none;
+padding-bottom:9px;
+}
+.label_radio input, .label_radiotech input, .label_radiobrnd input, .label_radiovr input, .label_radiorr input, .label_radiohd input {
+margin-right:5px;
+}
+.label_radio, .label_radiotech, .label_radiobrnd, .label_radiovr, .label_radiorr, .label_radiohd {
+background:url("../images/radio-off.png") no-repeat scroll 0 0 transparent;
+padding:0 0 2px 34px;
+}
+.label_radio input, .label_radiotech input, .label_radiobrnd input, .label_radiovr input, .label_radiorr input, .label_radiohd input {
+left:-9999px;
+position:absolute;
+}
+.acquiring_location h3 {
+-moz-background-inline-policy:continuous;
+-moz-border-radius:0 0 0 0;
+background:url("../images/acquring_loc_bg.gif") repeat-x scroll 0 0 transparent;
+color:#FFFFFF;
+display:block;
+font-size:18px;
+font-weight:bold;
+height:30px;
+line-height:33px;
+margin:0;
+text-decoration:none;
+}
+.acquiring_location h3 {
+font-size:14px;
+}
+.acquiring_location .loc_img {
+background:url("../images/acquring_img.jpg") no-repeat scroll 0 0 transparent;
+display:block;
+float:left;
+height:34px;
+margin-right:0;
+margin-top:0;
+width:35px;
+}
+.listing-categories .update_loc {
+float:left;
+line-height:2em;
+padding-left:7em;
+}
+.listing-categories .update_loc_img {
+float:right;
+padding-right:1em;
+}
+.listing-categories .weekly_ads {
+float:left;
+line-height:2em;
+}
+.acquiring_location {
+-moz-border-radius:0 0 0 0;
+background:url("../images/acquring_loc_bg.gif") repeat-x scroll 0 0 transparent;
+color:#FFFFFF;
+display:block;
+font-size:18px;
+font-weight:bold;
+height:30px;
+line-height:33px;
+margin:0;
+padding:0 10px;
+text-decoration:none;
+}
+#product-search-open .acquiring_location h3, .acquiring_location h3 {
+-moz-background-inline-policy:continuous;
+-moz-border-radius:0 0 0 0;
+background:url("../images/acquring_loc_bg.gif") repeat-x scroll 0 0 transparent;
+color:#FFFFFF;
+display:block;
+font-size:14px;
+font-weight:bold;
+height:30px;
+line-height:33px;
+margin:0;
+text-decoration:none;
+}
+.acquiring_location .loc_img {
+background:url("../images/ajax-loader.gif") no-repeat scroll 0 0 transparent;
+display:block;
+float:left;
+height:34px;
+margin-right:0;
+margin-top:3px;
+width:35px;
+}
+#product-search-open .listing-categories .update_loc {
+color:#003399;
+float:left;
+font-size:13px;
+font-weight:bold;
+line-height:2.2em;
+padding-left:5.5em;
+}
+.listing-categories .update_loc {
+color:#003399;
+float:left;
+font-size:13px;
+font-weight:bold;
+line-height:2em;
+padding-left:6.9em;
+}
+.change_location .update_loc {
+color:#003399;
+float:left;
+font-size:13px;
+font-weight:bold;
+line-height:2.5em;
+padding-left:10em;
+}
+.change_location .update_loc_img, .listing-categories .update_loc_img {
+float:right;
+padding:5px 0.8em 5px 0;
+}
+.change_location .weekly_ads, .listing-categories .weekly_ads {
+color:#666666;
+float:left;
+font-size:12px;
+font-weight:bold;
+line-height:2em;
+}
+.change_location .current_zip {
+color:#666666;
+float:left;
+font-size:13px;
+font-weight:bold;
+line-height:2.4em;
+}
+#error_loc {
+font-size:13px;
+margin:0 0 5px;
+}
+.change_location {
+padding:2px 0 0 1em;
+}
+.change_location ul {
+line-height:10px;
+}
+.listing-categories {
+padding-bottom:0;
+}
+#product-search-open .form_weeklyad_input {
+margin-bottom:10px;
+width:193px;
+}
+#product-search-open .form_weeklyad_width {
+margin-bottom:10px;
+width:180px;
+}
+#product-search-open .widthdef {
+width:100px;
+}
+#store-result-list .store-navigation {
+padding-left:0;
+}
+#store-result-list li {
+padding-left:10px;
+}
+#product-search-open .zip_label {
+float:left;
+font-weight:bold;
+line-height:23px;
+padding-right:5px;
+width:65px;
+}
+#product-search-open .state_label {
+float:left;
+font-weight:bold;
+line-height:18px;
+padding-right:5px;
+}
+#product-search-open .city_label {
+float:left;
+font-weight:bold;
+line-height:25px;
+padding-right:5px;
+}
+#product-search-open .or_label {
+color:#656566;
+font-weight:bold;
+padding:15px 0 10px 117px;
+}
+.state_label {
+padding-bottom:4px;
+}
+.findstore_searhcparam, .weeklyads_searchparam {
+padding:1em 0 1em 1em;
+}
+.weeklyads_searchparam .widthdef, .findstore_searhcparam .widthdef {
+width:205px;
+}
+#product-search-open .lbl_width {
+width:65px;
+}
+.update_loc_img img {
+padding-right:5px;
+}
+.update_loc_td {
+background:url("../images/update_location.gif") no-repeat scroll 95% 0 transparent;
+height:26px;
+padding-right:35px;
+text-align:center;
+white-space:nowrap;
+}
+.update_loc_tdDiv {
+float:right;
+}
+.update_loc_tdDiv ul li {
+float:left;
+line-height:21px;
+padding-bottom:0;
+padding-right:5px;
+white-space:nowrap;
+}
+.store-result .store-navigation {
+margin-top:8px;
+}
+#tvFindersrchd .downarrow,#laptopFindersrchd .downarrow {
+display:block;
+float:right;
+height:23px;
+margin-top:5px;
+width:26px;
+}
+.downarrow.closed {
+-moz-background-inline-policy:continuous;
+background:url("../images/dropdownis-closed.png") no-repeat scroll 0 0 transparent;
+}
+.downarrow.opened {
+-moz-background-inline-policy:continuous;
+background:url("../images/dropdownis-open.png") no-repeat scroll 0 0 transparent;
+}
+a.trigger1.closed {
+color:#003B64;
+text-shadow:1px 1px #FFFFFF;
+}
+a.trigger1 {
+-moz-background-inline-policy:continuous;
+-moz-border-radius:4px 4px 0 0;
+background:url("../images/bg-dropdown.png") repeat-x scroll 0 0 transparent;
+display:block;
+font-size:14px;
+font-weight:bold;
+height:33px;
+line-height:33px;
+padding-left:10px;
+padding-right:10px;
+text-decoration:none;
+}
+#tvFindersrchd.refine .downarrow-opened,#laptopFindersrchd.refine .downarrow-opened {
+display:block;
+margin:0 5px;
+}
+#tvFindersrchd .downarrow-opened,#laptopFindersrchd .downarrow-opened {
+display:block;
+margin:5px;
+}
+#tvFindersrchd .downarrow-opened li,#laptopFindersrchd .downarrow-opened li  {
+height:27px;
+padding:5px 0;
+}
+#tvFindersrchd .downarrow-opened input[type="text"],#laptopFindersrchd .downarrow-opened input[type="text"] {
+float:none;
+margin:0;
+width:198px;
+}
+#tvFindersrchd .downarrow-opened select,#laptopFindersrchd .downarrow-opened select  {
+width:210px;
+}
+#tvFindersrchd select,#laptopFindersrchd select {
+width:180px;
+}
+#tvFindersrchd .TVsrchfltr-param form[name="TV-search"] input[type="text"],#laptopFindersrchd .TVsrchfltr-param form[name="TV-search"] input[type="text"]  {
+width:215px;
+}
+#tvFindersrchd input[type="text"],#laptopFindersrchd input[type="text"]  {
+-moz-border-radius:4px 4px 4px 4px;
+border:1px solid #A1A1A1;
+color:#353535;
+font-weight:normal;
+height:20px;
+margin:0 3px;
+padding:4px 4px 2px 5px;
+vertical-align:middle;
+width:170px;
+}
+.dottedsep_whitebg {
+-moz-background-inline-policy:continuous;
+background:url("../images/dottedsep_for_whitebg.png") repeat-x scroll 1% 1% transparent;
+height:1px;
+}
+#tvFindersrchd .continue_searchpar,#laptopFindersrchd .continue_searchpar {
+color:#353232;
+font-size:12px;
+line-height:28px;
+}
+#tvFindersrchd .downarrow-opened #error_loc li,#laptopFindersrchd .downarrow-opened #error_loc li {
+padding:0;
+}
+#tvFindersrchd .downarrow-opened .btn-search,#laptopFindersrchd .downarrow-opened .btn-search {
+float:right;
+font-family:arial;
+font-size:11px;
+font-weight:bold;
+padding:0 10px;
+}
+#tvFindersrchd .srchrslt h3 img,#laptopFindersrchd .srchrslt h3 img {
+margin:7px 5px 0 0;
+}
+#tvFindersrchd .acqloc .updatelocation,#laptopFindersrchd .acqloc .updatelocation  {
+background:url("../images/ajax-loader.gif") no-repeat scroll 0 0 transparent;
+display:block;
+float:left;
+height:31px;
+margin-right:-10px;
+margin-top:5px;
+padding-right:10px;
+width:31px;
+}
+#tvFindersrchd .updatelocation,#laptopFindersrchd .updatelocation {
+background:url("../images/update_location.gif") no-repeat scroll 0 0 transparent;
+display:block;
+float:left;
+height:31px;
+margin-top:5px;
+padding-right:2px;
+width:31px;
+}
+.count_b {
+border-bottom:1px solid #CCCCCC;
+padding-bottom:5px;
+}
+.srchnarrowed .dropdown-opened li a.category {
+background:none repeat scroll 0 0 transparent;
+border-top:1px solid #BBBBBB;
+color:#003B64;
+display:block;
+font-weight:bold;
+height:42px;
+line-height:42px;
+padding-left:10px;
+text-decoration:none;
+}
+.srchnarrowed .dropdown-opened li a.master_cat {
+background:url("../images/tv_icon.gif") no-repeat scroll 10px 10px transparent;
+font-weight:bold;
+padding-left:50px;
+}
+#tvFindersrchd .srchrslt div,#laptopFindersrchd .srchrslt div {
+font-size:12px;
+}
+#tvFindersrchd .srchrslt .updtloc{
+float:right;
+}
+#tvFindersrchd .srchrslt .updtloc .updatelocation, #laptopFindersrchd .srchrslt .updtloc .updatelocation {
+float:right;
+font-size:12px;
+margin-left:5px;
+padding:3px 0;
+}
+#tvFindersrchd label,#laptopFindersrchd label {
+float:left;
+font-size:12px;
+padding:3px 0;
+width:78px;
+}
+#tvFinderfilter .tab_container .tech-params label, #laptopFinderfilter .tab_container .tech-params label {
+display:block;
+float:right;
+width:90px;
+}
+#tvFinderfilter .tab_container .tech-params input[type="checkbox"], #laptopFinderfilter .tab_container .tech-params input[type="checkbox"] {
+position:relative;
+top:2px;
+vertical-align:bottom;
+}
+.srchnarrowed .dropdown-opened {
+border:medium none;
+display:block;
+}
+.srchnarrowed .dropdown-opened {
+border-bottom:1px solid #BBBBBB;
+display:block;
+margin-bottom:10px;
+}
+#Tvfinder_categoriesNfilter #BrowseCategories, #Tvfinder_categoriesNfilter #tvFindersrchd,#laptopFindersrchd {
+margin-bottom:10px;
+margin-top:10px;
+}
+#slider-range .handlemin, #slider-range2 .handlemin {
+background:url("../images/bgSliderHandle2.gif") repeat-x scroll 50% 50% transparent;
+cursor:default;
+height:21px;
+position:absolute;
+width:70px;
+z-index:2;
+}
+.nostorefound {
+background-color:#D3D3D3;
+border-bottom:1px solid #B2ADAD;
+color:#585757;
+font-size:85%;
+font-weight:bold;
+height:33px;
+margin-bottom:0;
+padding:4px;
+}
+.nostorefound li {
+float:left;
+line-height:16px;
+margin-right:4px;
+}
+.includeonlineitems {
+background-color:#D3D3D3;
+color:#585757;
+font-size:85%;
+font-weight:bold;
+height:30px;
+padding-left:4px;
+}
+#tvFindersrchd .includeonlineitems .onlineitemschkbox,#laptopFindersrchd .includeonlineitems .onlineitemschkbox {
+line-height:30px;
+}
+.includeonlineitems li {
+float:left;
+line-height:25px;
+margin-right:4px;
+}
+.includeonlineitems ul {
+float:left;
+}
+#tvFindersrchd input[type="text"],#laptopFindersrchd input[type="text"] {
+width:200px;
+}
+.tab_container .labe {
+background:url("../images/radio-off.png") no-repeat scroll 0 0 transparent;
+margin-left:8px;
+padding:0 0 2px 22px;
+text-transform:uppercase;
+}
+#label_radio1, #label_radio2, #label_radio3, #label_radio4, #label_radio5 {
+padding-top:2px;
+}
+.tab_container .r_on {
+background:url("../images/radio-on.png") no-repeat scroll 0 0 transparent;
+text-transform:uppercase;
+}
+#label_radio1 input, #label_radio2 input, #label_radio3 input, #label_radio4 input, #label_radio5 input {
+left:-999px;
+position:absolute;
+}
+.tab_container {
+font-weight:bold;
+}
+.btn-search-gray {
+-moz-border-radius:6px 6px 6px 6px;
+background:url("../images/bg-button-gray.png") repeat-x scroll 0 0 transparent;
+border:1px solid #929294;
+color:#FFFFFF;
+float:right;
+height:23px;
+line-height:23px;
+margin-right:13px;
+margin-top:2px;
+padding:0 10px;
+text-align:center;
+width:30px;
+}
+#tvFindertabs,#laptopFindertabs {
+float:left;
+width:53%;
+}
+#tvFindersrchd .srchrslt .locality_name,#laptopFindersrchd .srchrslt .locality_name {
+float:left;
+width:75%;
+}
+#tvFindersrchd .nostorefound,#laptopFindersrchd .nostorefound {
+display:none;
+}
+#tvFinderfilter #tvFindertabs .tabs, #laptopFinderfilter #laptopFindertabs .tabs {
+width:99%;
+}
+#tvFinderfilter #price-calib .pricelbl_1, #laptopFinderfilter #price-calib .pricelbl_1 {
+margin-top:-14px;
+}
+#tvFinderfilter #price-calib .pricelbl_2, #laptopFinderfilter #price-calib .pricelbl_2{
+margin-top:16px;
+}
+#tvFinderfilter #price-calib .pricelbl_3, #laptopFinderfilter #price-calib .pricelbl_3 {
+margin-top:16px;
+}
+#tvFinderfilter #price-calib .pricelbl_4, #laptopFinderfilter #price-calib .pricelbl_4 {
+margin-top:19px;
+}
+#tvFinderfilter #price-calib .pricelbl_5, #laptopFinderfilter #price-calib .pricelbl_5 {
+margin-top:17px;
+}
+#tvFinderfilter #price-calib .pricelbl_6, #laptopFinderfilter #price-calib .pricelbl_6 {
+margin-top:18px;
+}
+#tvFinderfilter #price-calib .pricelbl_7, #laptopFinderfilter #price-calib .pricelbl_7 {
+margin-top:18px;
+}
+#tvFinderfilter #screen-calib .sslbl_1, #laptopFinderfilter #screen-calib .sslbl_1 {
+margin-top:-15px;
+}
+#tvFinderfilter #screen-calib .sslbl_2, #laptopFinderfilter #screen-calib .sslbl_2 {
+margin-top:17px;
+}
+#tvFinderfilter #screen-calib .sslbl_3, #laptopFinderfilter #screen-calib .sslbl_3 {
+margin-top:16px;
+}
+#tvFinderfilter #screen-calib .sslbl_4, #laptopFinderfilter #screen-calib .sslbl_4 {
+margin-top:18px;
+}
+#tvFinderfilter #screen-calib .sslbl_5, #laptopFinderfilter #screen-calib .sslbl_5 {
+margin-top:19px;
+}
+#tvFinderfilter #screen-calib .sslbl_6, #laptopFinderfilter #screen-calib .sslbl_6 {
+margin-top:17px;
+}
+#tvFinderfilter #screen-calib .sslbl_7, #laptopFinderfilter #screen-calib .sslbl_7 {
+margin-top:19px;
+}
+.tech-params input {
+margin-right:2px;
+}
+form[name="m-search-top"] .btn {
+background:url("../images/bg_image.png") repeat-x scroll 0 -275px transparent;
+}
+.update_loc_img img {
+padding-right:5px;
+}
+.update_loc_td {
+background:url("../images/update_location.gif") no-repeat scroll 95% 0 transparent;
+height:26px;
+padding-right:35px;
+text-align:center;
+white-space:nowrap;
+}
+.update_loc_tdDiv {
+float:right;
+}
+.update_loc_tdDiv ul li {
+float:left;
+line-height:21px;
+padding-bottom:0;
+padding-right:5px;
+white-space:nowrap;
+}
+#tvFindersrchd .srchrslt span,#laptopFindersrchd .srchrslt span {
+font-size:12px;
+}
+#large-image #contents {
+-moz-border-radius:6px 6px 6px 6px;
+-moz-box-shadow:0 3px 0 #CCCCCC;
+}
+#tvFindersrchd .srchrslt #expand, #tvFindersrchd #displayResultsId #expand {
+float:left;
+font-size:16px;
+padding-right:4px;
+}
+#Tvfinder_categoriesNfilter #tvFindersrchd .downarrow-opened .continue_searchpar, #tvFindersrchd .downarrow-opened .continue_searchpar,#laptopFindersrchd .downarrow-opened .continue_searchpar, #laptopFindersrchd .downarrow-opened .continue_searchpar {
+height:27px;
+padding:5px 0 0;
+}
+#tvFindersrchd .srchrslt #update_location a,#laptopFindersrchd .srchrslt #update_location a {
+color:#FFFFFF;
+}
+#tvFindersrchd .acc_loc,#laptopFindersrchd .acc_loc {
+background:url("../images/ajax-loader.gif") no-repeat scroll 0 0 transparent;
+display:block;
+float:left;
+height:24px;
+margin-right:-8px;
+margin-top:6px;
+width:35px;
+}
+#tvFindersrchd .srchrslt .locality_name_acq,#laptopFindersrchd .srchrslt .locality_name_acq {
+font-size:14px;
+line-height:35px;
+padding-left:5px;
+}
+#tvFindersrchd .srchrslt h3.locality_name_acq,#laptopFindersrchd .srchrslt h3.locality_name_acq {
+padding:0 2px 0 4px;
+}
+#Tvfinder_categoriesNfilter #tvFindersrchd a.trigger1, #tvFindersrchd h3,#laptopFindersrchd a.trigger1, #laptopFindersrchd h3 {
+-moz-border-radius-bottomleft:0;
+-moz-border-radius-bottomright:0;
+}
+#tvFindersrchd .downarrow-opened li:first-child label,#laptopFindersrchd .downarrow-opened li:first-child label {
+line-height:20px;
+}
+#displayResultsEnableId .tvdsprslt {
+margin-left:11px;
+}
+.tvfinderbuttons #start_over {
+margin-left:4px;
+}
+.tvfinderbuttons #displayResultsDisableId {
+margin-left:8px;
+}
+
+/* R14 - S1 */
+#laptopFindersrchd .srchrslt #expand, #laptopFindersrchd #displayResultsId #expand {
+float:left;
+font-size:30px;
+padding-right:4px;
+}
+#laptopFinderfilter {width:101%;margin:0 5px 5px -5px}
+#laptopFindersrchd ul {padding:0px 5px}
+#laptopFindersrchd .srchrslt .updtloc {float:none}
+#laptopFindersrchd .srchrslt .updtloc .updatelocation {float:left}
+.padtop8em {padding-top:0.8em}
+#location_lookup {background:#5b5b5b;position:absolute;height:100%;width:100%;opacity:0.8;left:0;top:0}
+#location_lookup .popup_content {margin:150px auto 0 auto;width:260px;height:130px;-moz-border-radius:10px; -webkit-border-radius:10px; border:2px solid #fff;padding:15px;background:#182145;font-size:18px;text-align:center}
+#location_lookup .popup_content span {color:#fff;font-weight:bold}
+#laptopFindersrchd .Laptopsrchicon {background:url("../images/laptopFinderheadersrchdimg.gif") no-repeat scroll 0 0 transparent}
+.mrgntop35px {margin-top:35px}
