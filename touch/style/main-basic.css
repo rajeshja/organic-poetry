@@ -1,0 +1,49 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td{margin:0; padding:0}
+fieldset,img{border:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal; width:100%}
+q:before,q:after{content:''}
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif}table{font-size:inherit;font:100%}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%}
+body{background-color:#fff}
+#logobar{padding:0; margin:0}
+#pagebox{width:240px; padding:3px} 
+a{color:#0039a7}
+.header{height:51px; background:url(../images/b.gif) repeat-x}
+a.logo{padding:0em}
+h1{font-size:110%; font-weight:bold}
+h2{font-size:105%; font-weight:bold}
+h3{font-size:102%; font-weight:bold}
+h4{font-weight:bold}
+.grey{font-color:#666; color: #666}
+span.price{font-size:125%; color:#cc3300; font-weight:bold}
+span.red{font-size:125%; color:#cc3300; font-weight:bold}
+.pricetxt{color:#cc3300}
+.featured{font-weight:bold}
+.product-details div, .product-details span{display:block; clear:both}
+.product-details ul li{display:block; clear:both}
+.padding-bottom{padding-bottom:5px}
+.padding-top{padding-top:5px}
+.overview h3, .overview span{padding-bottom:0.5em}
+#error{width:80%; padding-bottom:0.5em}
+#inline-error{width:80%; padding:0.5em 0 0.5em 0em}
+.error, .error-small{display:block; font-size:123.1%; color:#cc0000; text-decoration:none; font-weight:normal; clear:both}
+.red,.redtxt{color: #cc0000}
+.error-small{font-size:108%}
+.error-icon{padding:1em 1em 1em 0; display:block}
+ol,ul{list-style:none}
+#summary p, #billing-address .address{padding:0;margin:0}
+.reward_detail{overflow:hidden}
+.reward_detail div.reward_pts{float:left; width: 30px; font-weight:bold}
+.reward_detail div.reward_txt{float:left; width:190px}
+.errbullet{list-style-type: disc; color:#cc0000; padding-left:25px}
+.actionlink{margin: 0 6px; text-decoration:underline;color:#0039A7}
+.disabled{font-family:Arial;font-weight: normal;color:#000}
+#rewardzone_info ul{padding: 5px 3px 5px 15px; list-style-type: disc; list-style-position:outside; text-indent:-0px}
+
+/*R13 */
+.linespace {line-height:20px;font-size:12px;font-weight:normal}
+.padding-bottom7px {padding-bottom:7px;}
+.small {font-size:12px;}
+h1 a {text-decoration:none}
+/* */
+.nodecoration {text-decoration:none;}
+#footer {float:left; border-top:2px solid #FFF;}

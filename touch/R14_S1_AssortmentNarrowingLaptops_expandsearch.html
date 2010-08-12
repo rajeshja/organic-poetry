@@ -1,0 +1,294 @@
+<!DOCTYPE HTML PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Best Buy Laptop Finder</title>
+<link rel="apple-touch-icon" href="/ifavicon.png" />
+<link href="style/main_enhanced_generic.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<link href="style/main_enhanced_1.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<link href="style/main_enhanced_2.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<link href="style/m-e-main.css" rel="stylesheet" type="text/css" media="handheld,screen"/>
+<link href="style/jquery-ui.css" rel="stylesheet" type="text/css" media="handheld,screen" />
+<script src="scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.cycle.all.min.js" type="text/javascript"></script>
+<script src="scripts/common.js" type="text/javascript"></script>
+<script src="scripts/jquery.flick.js" type="text/javascript"></script>
+<script src="scripts/jqtouch.js" type="text/javascript"></script>
+<script src="scripts/jquery.iphoneui.js" type="text/javascript"></script>
+<script src="scripts/jquery-ui.min.js" type="text/javascript"></script>
+<script src="scripts/asortment.js" type="text/javascript"> </script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+#page-wrapper {
+width:100%;
+}
+</style>
+<script type="text/javascript">
+var defaultParentList = false;
+</script>
+</head>
+<body onload="setSliderRange('500','1500','pageOnload');setSCrSizeSliderRangeLT('12','16','pageOnload');checkRefineFacets('no');disableDisplayResults('53');startOver('');self.location = '#content';">
+<div id="header">
+<a href='#'><img src="images/logo-bby.png" class="logo" height="41" width="60"/></a>
+<ol class="header-links">
+<li><a href="#">Home</a></li>
+<li class="divider"></li>
+<li><a href='#'>Sign In</a></li>
+<li class="divider"></li>
+<li><a href='#' class="cart"> (0)</a></li>
+</ol>
+<br class="brClear" />
+<ol class="nav">
+<li><a href="#">Weekly Ad</a></li>
+<li><a href="#">Store Locator</a></li>
+</ol>
+<br class="brClear" />
+</div>
+<div id="errorMsg" style="display:none">
+<div id="inline-error"><span class="error">Please choose category and try again.</span></div>
+</div>
+<div id="noSearch" style="display:none">
+<div id="inline-error"><span class="error">Please enter keyword(s) or item number and try again.</span>
+</div>
+</div>
+<div class="search">
+<form  action='/m/e/search/results.jsp'
+onsubmit="return validate_form(this)" method="post" name="searchform" id="m-search-top">
+<input type="text" name="st" accesskey="4" id="textfield" value="Enter keyword or item #"
+class="text" maxlength="34" onclick="this.value=''" onfocus="(this.value='')" />
+<a href="#" onclick="searchSubmit();" class="btn btn-search">Search</a>
+</form>
+</div>
+<div id="content">
+<div id="laptopFindersrchd" class="laptopFindersrchd_d" >
+<h3><span class="Laptopsrchicon"></span>Laptop Finder</h3>
+<div class="srchrslt" id="acquiring_location" style="display:none">
+<h3 class="locality_name_acq"><span class="locality_name_acq">Acquiring Location</span>
+<span class="acc_loc"/></h3>
+</div>
+<div class="srchrslt" id="displayResultsId">
+<h3><span id="messages"><span id="expand"> X </span><span class="locality_name"  id="onlineonlyitems"  style="display:none">
+items available</span>
+<span class="locality_name" id="onlineId" style="display:none">items available near&nbsp;10011</span>
+<span class="locality_name" id="storeonlyitems">items available near 10011</span></span>
+<span id="error_loc"></span>
+<a href="#"><span class="TVsrchfltr"></span></a>
+</h3>
+</div>
+<div class="srchrslt" id="acquiringId" style="display:none">
+<h3>
+<span class="locality_name">Acquiring Results Count...</span>
+</h3>
+</div>
+<div class="nostorefound" id="expandId" style="display:block">
+<ul>
+<li>No items matching your criteria found near you.<br/>
+Search expanded to include online items.</li>
+</ul>
+</div>
+<div class="nostorefound" id="noItemsId" style="display:none;">
+<ul>
+<li>No items matching your criteria found near you.<br/>
+Expand your search to include online items.</li>
+</ul>
+</div>
+<div class="TVsrchfltr-param" id="tvsrchfltr-param">
+<ul>
+<li>
+<form name="assortmentNarrowForm" method="post"><input value="ISO-8859-1" type="hidden" name="_dyncharset"></input><input value="4746642501748152396" type="hidden" name="_dynSessConf"></input><input value="55420" maxlength="5" type="text" class="text" onfocus="(this.value='')" name="/bestbuy/digiterra/commerce/order/processor/CartSessionValues.storeInputData.inputData.zipCode" id="tvzip"><input value=" " type="hidden" name="_D:/bestbuy/digiterra/commerce/order/processor/CartSessionValues.storeInputData.inputData.zipCode"><a class="btn btn-search-gray"
+href="javascript:document.assortmentNarrowForm.submit();">
+Set&nbsp;>
+</a>
+<input value="narrow" type="hidden" name="/bestbuy/mobile/formhandlers/AssortmentNarrowFormHandler.editValue.requestPage"><input value=" " type="hidden" name="_D:/bestbuy/mobile/formhandlers/AssortmentNarrowFormHandler.editValue.requestPage"><input value="abcat0101000" type="hidden" name="/bestbuy/mobile/formhandlers/AssortmentNarrowFormHandler.editValue.catid"><input value=" " type="hidden" name="_D:/bestbuy/mobile/formhandlers/AssortmentNarrowFormHandler.editValue.catid"><input value="submit" type="hidden" name="/bestbuy/mobile/formhandlers/AssortmentNarrowFormHandler.getItems"><input value=" " type="hidden" name="_D:/bestbuy/mobile/formhandlers/AssortmentNarrowFormHandler.getItems"><input value="/m/e/assortment/includes/assortmentnarrowheader.jsp.assortmentNarrowForm" type="hidden" name="_DARGS"></input></form></li>
+</ul>
+</div>
+<div class="includeonlineitems">
+<ul>
+<li class="onlineitemschkbox">
+<form name="expandsearchform">
+<input type="checkbox" id="expandSearch" onclick="constructQueryForAssortionNarrow();" checked="checked" />
+</form>
+</li>
+<li>
+Expand search to include online items.</li>
+</ul>
+</div>
+<div id="laptopFinderfilter">
+<div id="laptopFindertabs">
+<ul class="tabs">
+<li>
+<div id="slider1" style="display: block;">&nbsp;</div>
+<a href="#tab1">Price Range</a>
+</li>
+<li>
+<div id="slider2" style="display: block;">&nbsp;</div>
+<a href="#tab2">Screen Size</a>
+</li>
+<li>
+<div id="tickbox1">&nbsp;</div>
+<a href="#tab3">Laptop Type</a>
+</li>
+<li>
+<div id="tickbox2">&nbsp;</div>
+<a href="#tab4">Brand</a>
+</li>
+<li>
+<div id="tickbox3">&nbsp;</div>
+<a href="#tab5">Memory</a>
+</li>
+<li>
+<div id="tickbox4">&nbsp;</div>
+<a href="#tab6">Storage</a>
+</li>
+</ul>
+</div>
+<div class="tab_container">
+<div id="tab1" class="tab_content">
+<div class="pricerange">
+<form name="tvfinder-pricerange">
+<input type="text" id="amount" readonly="readonly"/> - <input type="text" id="amount1" readonly="readonly" />
+</form>
+</div>
+<div id="slider-range" ></div>
+<div id="price-calib">
+<ul>
+<li class="pricelbl_1">$3000+</li>
+<li class="pricelbl_2">$2500</li>
+<li class="pricelbl_3">$2000</li>
+<li class="pricelbl_4">$1500</li>
+<li class="pricelbl_5">$1000</li>
+<li class="pricelbl_6">$500</li>
+<li class="pricelbl_7">$1</li>
+</ul>
+</div>
+</div>
+<div id="tab2" class="tab_content">
+<div class="pricerange">
+<form name="tvfinder-screen">
+<input type="text" id="amount2" readonly="readonly" /> - <input type="text" id="amount3" readonly="readonly"/>
+</form>
+</div>
+<div id="slider-range2"></div>
+<div id="screen-calib">
+<ul>
+<li class="sslbl_1">18"+</li>
+<li class="sslbl_2">17"</li>
+<li class="sslbl_3">16"</li>
+<li class="sslbl_4">14"</li>
+<li class="sslbl_5">12"</li>
+<li class="sslbl_6">11"</li>
+<li class="sslbl_7">10"</li>
+</ul>
+</div>
+</div>
+<div id="tab3" class="tab_content">
+<div class="tech-params technology">
+<form name="formName3">
+<ul>
+<li><input type="checkbox" name="tvType" id="tvType1" value="PREMIUM" class="param1" onclick="filterChecked('1');constructQueryForAssortionNarrow();">  <label>PREMIUM</label></li>
+<li><input type="checkbox" name="tvType" id="tvType2" value="EVERYDAY" class="param1" onclick="filterChecked('1');constructQueryForAssortionNarrow();">  <label>EVERYDAY</label></li>
+<li><input type="checkbox" name="tvType" id="tvType3" value="ULTRA THIN" class="param1" onclick="filterChecked('1');constructQueryForAssortionNarrow();">  <label>ULTRA THIN</label></li>
+<li><input type="checkbox" name="tvType" id="tvType4" value="GAMING" class="param1" onclick="filterChecked('1');constructQueryForAssortionNarrow();">  <label>GAMING</label></li>
+<li><input type="checkbox" name="tvType" id="tvType5" value="SMALL BUSINESS" class="param1" onclick="filterChecked('1');constructQueryForAssortionNarrow();">  <label>SMALL BUSINESS</label></li>
+<li><input type="checkbox" name="tvType" id="tvType6" value="NOTEBOOKS" class="param1" onclick="filterChecked('1');constructQueryForAssortionNarrow();">  <label>NOTEBOOKS</label></li>
+<li class="dottedsep"></li>
+</ul>
+<div id="label_radio1" class="labe r_on" onclick="noPreference('1')">
+<input type="radio" checked="checked" value="yes" id="c"/>NO PREFERENCE
+</div>
+</form>
+</div>
+</div>
+<div id="tab4" class="tab_content">
+<div class="tech-params technology">
+<form name="formName4">
+<ul>
+<li><input type="checkbox" name="manufacturer" id="manufacturer1" value="HP" class="param2" onclick="filterChecked('2');constructQueryForAssortionNarrow();">  <label>HP</label></li>
+<li><input type="checkbox" name="manufacturer" id="manufacturer2" value="TOSHIBA" class="param2" onclick="filterChecked('2');constructQueryForAssortionNarrow();">  <label>TOSHIBA</label></li>
+<li><input type="checkbox" name="manufacturer" id="manufacturer3" value="DELL" class="param2" onclick="filterChecked('2');constructQueryForAssortionNarrow();">  <label>DELL</label></li>
+<li><input type="checkbox" name="manufacturer" id="manufacturer4" value="SONY" class="param2" onclick="filterChecked('2');constructQueryForAssortionNarrow();">  <label>SONY</label></li>
+<li><input type="checkbox" name="manufacturer" id="manufacturer5" value="ASUS" class="param2" onclick="filterChecked('2');constructQueryForAssortionNarrow();">  <label>ASUS</label></li>
+<li><input type="checkbox" name="manufacturer" id="manufacturer6" value="APPLE" class="param2" onclick="filterChecked('2');constructQueryForAssortionNarrow();">  <label>APPLE</label></li>
+<li><input type="checkbox" name="manufacturer" id="manufacturer7" value="GATEWAY" class="param2" onclick="filterChecked('2');constructQueryForAssortionNarrow();">  <label>GATEWAY</label></li>
+<li class="dottedsep"></li>
+</ul>
+<div id="label_radio2" class="labe r_on" onclick="noPreference('2')">
+<input type="radio" checked="checked" value="yes" id="c">All Brands
+</div>
+</form>
+</div>
+</div>
+<div id="tab5" class="tab_content">
+<div class="tech-params technology">
+<form name="formName5">
+<ul>
+<li><input type="checkbox" name="verticalResolution" id="verticalResolution1" value="1GB" class="param3" onclick="filterChecked('3');constructQueryForAssortionNarrow();">  <label>1GB</label></li>
+<li><input type="checkbox" name="verticalResolution" id="verticalResolution2" value="2GB" class="param3" onclick="filterChecked('3');constructQueryForAssortionNarrow();">  <label>2GB</label></li>
+<li><input type="checkbox" name="verticalResolution" id="verticalResolution3" value="3GB" class="param3" onclick="filterChecked('3');constructQueryForAssortionNarrow();">  <label>3GB</label></li>
+<li><input type="checkbox" name="verticalResolution" id="verticalResolution3" value="41GB" class="param3" onclick="filterChecked('3');constructQueryForAssortionNarrow();">  <label>4GB</label></li>
+<li><input type="checkbox" name="verticalResolution" id="verticalResolution3" value="6GB" class="param3" onclick="filterChecked('3');constructQueryForAssortionNarrow();">  <label>6GB</label></li>
+<li><input type="checkbox" name="verticalResolution" id="verticalResolution3" value="8GB" class="param3" onclick="filterChecked('3');constructQueryForAssortionNarrow();">  <label>8GB</label></li>
+<li class="dottedsep"></li>
+</ul>
+<div id="label_radio3" class="labe r_on" onclick="noPreference('3')">
+<input type="radio" checked="checked" value="yes" id="c">NO PREFERENCE
+</div>
+</form>
+</div>
+</div>
+<div id="tab6" class="tab_content">
+<div class="tech-params technology">
+<form name="formName6">
+<ul>
+<li><input type="checkbox" name="screenRefreshRate" id="screenRefreshRate1" value="160GB" class="param4" onclick="filterChecked('4');constructQueryForAssortionNarrow();">  <label>160GB</label></li>
+<li><input type="checkbox" name="screenRefreshRate" id="screenRefreshRate2" value="250GB" class="param4" onclick="filterChecked('4');constructQueryForAssortionNarrow();">  <label>250GB</label></li>
+<li><input type="checkbox" name="screenRefreshRate" id="screenRefreshRate3" value="320GB" class="param4" onclick="filterChecked('4');constructQueryForAssortionNarrow();">  <label>320GB</label></li>
+<li><input type="checkbox" name="screenRefreshRate" id="screenRefreshRate4" value="500GB" class="param4" onclick="filterChecked('4');constructQueryForAssortionNarrow();">  <label>500GB</label></li>
+<li><input type="checkbox" name="screenRefreshRate" id="screenRefreshRate4" value="640GB" class="param4" onclick="filterChecked('4');constructQueryForAssortionNarrow();">  <label>640GB</label></li>
+<li><input type="checkbox" name="screenRefreshRate" id="screenRefreshRate4" value="1TB" class="param4" onclick="filterChecked('4');constructQueryForAssortionNarrow();">  <label>1TB</label></li>
+<li class="dottedsep"></li>
+</ul>
+<div id="label_radio4" class="labe r_on" onclick="noPreference('4')">
+<input type="radio" checked="checked" value="yes" id="c">NO PREFERENCE
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="tvfinderbuttons">
+<ul>
+    <li><a class="btn tvstrsovr" id="start_over" href="javascript:setSliderRange('500','1500','pageOnload');setSCrSizeSliderRange('30','49','pageOnload');checkRefineFacets('no');disableDisplayResults('53');startOver('true');">Start over</a></li>
+    <li id="displayResultsEnableId" style="display:none">
+    <a href="/m/e/assortment/results.jsp?cp=1&amp;start=true" class="btn tvdsprslt">display results</a></li>
+    <li id="displayResultsDisableId" style="display:none"><a class="btn tvstrsovr">display results</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<script src="scripts/foresee-trigger-mobile.js" type="text/javascript"> </script><div id="cybertrust">
+</div>
+<div class="bottom nobdrtop">
+<ul id="products-subnav">
+    <li><a href="#" class="rightline home">Home</a></li>
+    <li><a href="#" class="rightline myacount">My Account</a></li>
+    <li><a href="#" class="rightline orderstat">Order Status</a></li>
+    <li><a href="#" class="rightline signout">Sign In</a></li>
+    <li><a href="#">Cart (0)</a></li>
+  </ul>
+</div>
+<div class="bottom sign-in bc8">
+	<h3 class="findbystore"><a href="#">Find a Best Buy Store Near You</a></h3>			    
+</div>
+<div id="footer" class="bdrtpwhite floatlft"><span><a href="#">Order by Phone: 1-888 BEST BUY</a></span>
+<p>Prices on this site are the same as those on BestBuy.com. Prices may vary in store. All prices and offers are subject to change. In store availability subject to change. Orders placed for store pickup may take up to 45 minutes to process.
+<br />&copy;2003-2010 BBY Solutions, Inc. </p>
+<ol class="footer-links">
+    <li><a href="#">Terms</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Privacy</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Full Site</a></li>
+</ol>
+</div>
+</body>
+</html>
