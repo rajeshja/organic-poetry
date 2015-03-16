@@ -1,0 +1,3 @@
+We associate prose and poetry with linear sentences. One word follows exactly one word. This gadget takes an idea I read on a blog long ago - a blog I can no longer find - and allows you to create poetry as a tree instead of as a sentence. One word can be followed by one or more words as the next word, allowing you to branch off into multiple sentences from a common root.
+
+The resulting "poetry" is in the form of a tree. Hope you have fun with it!
